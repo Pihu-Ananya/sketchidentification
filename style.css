@@ -1,0 +1,27 @@
+body{
+    background-color:coral;
+
+}
+
+h1 {
+color:black;
+background-color:white;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas {
+    margin-top: 50px;
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 15px blue;}
+    to{box-shadow: 5px 5px 15px lightgreen;}
+}
